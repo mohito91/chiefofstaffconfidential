@@ -68,6 +68,17 @@
   .episode p { color: var(--ink-dim); font-size: .98rem; }
   a.episode { display: block; text-decoration: none; color: inherit; }
   a.episode:hover { border-color: rgba(201,162,39,.55); }
+  .start-here {
+    text-align: center; margin: 26px 0 6px; color: var(--ink-dim);
+    font-size: 1rem;
+  }
+  .start-here a { color: var(--gold-soft); }
+  .all-episodes {
+    text-align: center; margin: 10px 0 0;
+    font-family: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+    font-size: .9rem;
+  }
+  .all-episodes a { color: var(--gold-soft); }
   footer {
     text-align: center; color: var(--ink-dim); font-size: .9rem;
     margin-top: 48px;
@@ -99,6 +110,12 @@
 
   <h2>Recent Episodes</h2>
 
+  <a class="episode" href="episodes/the-change-agent.html">
+    <div class="num">Episode 6</div>
+    <h3>The Change Agent</h3>
+    <p>A merger plan built by the book falls apart in week three, and the problem is not the plan. The operations lead who quietly kept the old way alive, the conversation that finally moved him, and the rule Marcus now runs every change by: keep two versions, and never run the clean one.</p>
+  </a>
+
   <a class="episode" href="episodes/everything-is-a-project.html">
     <div class="num">Episode 5</div>
     <h3>Everything Is a Project</h3>
@@ -123,11 +140,9 @@
     <p>Five books every chief of staff should read — Extreme Ownership, Multipliers, The First 90 Days, High Output Management, and Essentialism — and the one takeaway from each you can use on Monday morning.</p>
   </a>
 
-  <a class="episode" href="episodes/take-the-chair.html">
-    <div class="num">Episode 1</div>
-    <h3>Take the Chair</h3>
-    <p>The starter kit: multiply the principal, run the operating system, and build trust the only way it lasts — discretion about what you hear, candor about what you think.</p>
-  </a>
+  <p class="start-here">New to the show? Start with <a href="episodes/take-the-chair.html">Episode 1 — Take the Chair</a>.</p>
+
+  <p class="all-episodes"><a href="episodes/">Browse all episodes</a></p>
 
   <footer>
     <p>Created by Mohit Agarwal.</p>

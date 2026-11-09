@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://chiefofstaffconfidential.com/sitemap.xml
